@@ -6,6 +6,12 @@
     --primary-color: #0f1b4c;
 }
 
+html,
+body {
+    /* Các trình duyệt có thể xh thanh cuộn ở các thẻ khác nhau (html hay body) */
+    scroll-behavior: smooth;
+}
+
 html {
     font-size: 62.5%;
 }
